@@ -14,5 +14,12 @@ module.exports = {
         },
       },
     },
+    {
+      resolve: 'gatsby-source-filesystem',
+      options: {
+        path: 'posts',
+        name: 'posts',
+      },
+    },
   ],
 };
