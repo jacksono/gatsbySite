@@ -36,5 +36,11 @@ module.exports = {
         name: 'images',
       },
     },
+    {
+      resolve: 'gatsby-source-instagram',
+      options: {
+        username: 'gatsbyjs',
+      },
+    },
   ],
 };
