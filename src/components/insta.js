@@ -22,7 +22,7 @@ const Insta = () => {
         {instaPhotos.map(photo => (
           <a
             href={`www.instagram.com/p/${photo.id}/`}
-            target="_blank"
+            target='_blank rel="noopener noreferrer"'
             css={css`
               box-shadow: 0;
               display: block;
