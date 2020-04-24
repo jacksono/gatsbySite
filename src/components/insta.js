@@ -21,7 +21,7 @@ const Insta = () => {
       >
         {instaPhotos.map(photo => (
           <a
-            href={`www.instagram.com/p/${photo.id}/`}
+            href={`https://www.instagram.com/p/${photo.id}/`}
             target='_blank rel="noopener noreferrer"'
             css={css`
               box-shadow: 0;
@@ -51,7 +51,7 @@ const Insta = () => {
           </a>
         ))}
       </div>
-      <a href={`https://instagram.com/${username}`}>
+      <a href={`https://www.instagram.com/${username}`}>
         See more on Instagram &rarr;
       </a>
     </>
